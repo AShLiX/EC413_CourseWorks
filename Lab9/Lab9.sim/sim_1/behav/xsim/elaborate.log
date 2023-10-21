@@ -1,0 +1,14 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot discussion_tb_behav xil_defaultlib.discussion_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 3 for port 'BranchMux' [C:/Users/AShLiX/Downloads/Lab8_Verilog_files/CPU.v:149]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'in' [C:/Users/AShLiX/Downloads/Lab8_Verilog_files/CPU.v:183]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'in' [C:/Users/AShLiX/Downloads/Lab8_Verilog_files/CPU.v:184]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'in' [C:/Users/AShLiX/Downloads/Lab8_Verilog_files/CPU.v:185]
+WARNING: [VRFC 10-3027] 'BranchMux' was previously declared with a different range [C:/Users/AShLiX/Downloads/Lab8_Verilog_files/pipecontrol.v:8]
+WARNING: [VRFC 10-3027] 'ex' was previously declared with a different range [C:/Users/AShLiX/Downloads/Lab8_Verilog_files/stallmux.v:11]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
